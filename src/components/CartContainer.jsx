@@ -29,7 +29,7 @@ const CartContainer = ({i}) => {
     <tr>
       <th scope="row ">
         <button className="btn btn-danger" onClick={() => removeProduct(id)}>
-          <i className="fa-regular fa-trash-can fa-xl"></i>
+          <i className="fa-regular fa-trash-can fa-xl">delete</i>
         </button>
       </th>
 

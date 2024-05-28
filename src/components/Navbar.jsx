@@ -62,7 +62,7 @@ const Navbar = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand text-light" href="#">
             Spicy Affairs
           </a>
         </div>

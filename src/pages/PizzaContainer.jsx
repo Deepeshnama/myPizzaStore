@@ -36,7 +36,7 @@ const PizzaContainer = () => {
           <p className="text-dark text-wrap fs-5 fst-italic font">
             Nutritions:- ({item[0]?.nutrition})
           </p>
-          <select
+          {/* <select
             className="form-select  my-3 w-75 font"
             value={topings}
             onChange={handleChange}
@@ -53,7 +53,7 @@ const PizzaContainer = () => {
             <option className="font" value="49">
               Rucola, corn, parsley, beans, tomatoes, peppers &nbsp; : ₹49
             </option>
-          </select>
+          </select> */}
           <h5 className="text-danger my-2 fw-semibold font ">
             ₹ {selectedPrice}
           </h5>
