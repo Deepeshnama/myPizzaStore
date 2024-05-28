@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+.nav-link {
+  color: white;
+}
+
+.image {
+  object-fit: cover;
+  overflow: hidden;
+  height: 650px;
+  width: 2000px;
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.text-overlay-1 {
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  color: white;
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.text-overlay-2 {
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  color: white;
+  font-size: 70px;
+  font-weight: 800;
+  padding: 10px;
+  background-color: rgb(203, 12, 12);
+}
+
+.text-overlay-3 {
+  position: absolute;
+  top: 300px;
+  left: 700px;
+  color: white;
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.logo {
+  color: white;
+  background-color: rgb(197, 10, 10);
+  padding: 40px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.logo:hover {
+  background-color: rgb(17, 196, 100);
+  color: white;
+  transition: all 1s ease;
+}
+
+.navbar-nav a:hover {
+  background-color: rgb(197, 10, 10);
+  transition: all 0.5s ease-in-out;
+  color: white;
+}
+
+.section-1 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("https://img.freepik.com/free-photo/view-ready-eat-delicious-meal-go_23-2151431806.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-1 h1 {
+  height: 93vh;
+  width: 90%;
+  text-align: center;
+  padding-left: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-family: "Finger Paint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(to right, red, orange, yellow, rgb(255, 128, 0), orange, red, rgb(255, 0, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.pizzas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pizzas .card {
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.pizzas .card:hover {
+  transform: translateY(-8px);
+  filter: grayscale(100%);
+}
+
+.image-1 {
+  margin-block: 60px;
+  margin-left: 150px;
+}
+
+.image-2 {
+  margin-left: 700px;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 100px;
+}
+
+.last h1 {
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.last p {
+  font-size: 18px;
+}
+
+.last button {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.last button:hover {
+  background-color: blueviolet;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin-block: 50px;
+}
+
+.contact h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.contact p {
+  font-size: .9rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+#menu-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+}
+
+.navbar-ul {
+  width: 90%;
+  display: flex;
+  height: 50%;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.navbar-ul li {
+  display: flex;
+  text-decoration: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #8d8d8d;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 500px;
+}
+
+.modal-form {
+  background-color: rgb(152, 192, 255);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.con-head {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form-contact h2 {
+  font-size: 1rem;
+}
+
+.contact-form input {
+  height: 1.5rem;
+}
+
+.sunny .card {
+  width: 18rem;
+}
+
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .section-1 {
+    width: 100%;
+    height: 93vh;
+  }
+
+  .section-1 h1 {
+    padding-left: 180px;
+    font-size: 100px;
+  }
+
+  .sunny {
+    width: 100%;
+    border: none;
+    flex-wrap: wrap;
+  }
+
+  .sunny .card {
+    width: 100%;
+  }
+
+  .last {
+    flex-direction: column;
+  }
+
+  .last span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .last br {
+    display: none;
+  }
+
+  .last p {
+    text-align: center;
+  }
+
+  .pizzas {
+    margin-inline: 20px;
+    flex-wrap: wrap;
+  }
+
+  .syska {
+    margin-right: 120px;
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-1 {
+    width: 100%;
+    height: 93vh;
+  }
+
+  .section-1 h1 {
+    padding-left: 50px;
+    font-size: 80px;
+  }
+
+  .sunny {
+    width: 100%;
+    border: none;
+    flex-wrap: wrap;
+  }
+
+  .sunny .card {
+    width: 100%;
+  }
+
+  .last {
+    flex-direction: column;
+    margin-inline: 5px;
+    padding-inline: 0px;
+  }
+
+  .last span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .last br {
+    display: none;
+  }
+
+  .last p {
+    text-align: center;
+  }
+
+  .pizzas {
+    margin-inline: 0px;
+    flex-wrap: wrap;
+  }
+
+  .syska {
+    display: none;
+  }
+}
